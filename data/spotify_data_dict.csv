@@ -13,7 +13,7 @@ in_apple_charts,int64, Presence and rank of the song on Apple Music charts
 in_deezer_playlists,object, Number of Deezer playlists the song is included in
 in_deezer_charts,int64, Presence and rank of the song on Deezer charts
 in_shazam_charts,object, Presence and rank of the song on Shazam charts
-bpm,int64, Beats per minute, a measure of song tempo
+bpm,int64, Beats per minute (a measure of song tempo)
 key,object, Key of the song
 mode,object, Mode of the song (major or minor)
 danceability_%,int64, Percentage indicating how suitable the song is for dancing
