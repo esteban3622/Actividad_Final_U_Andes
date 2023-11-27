@@ -1,0 +1,25 @@
+Column Name,Data Type,Description
+track_name,object,Name of the track
+artist(s)_name,object,Name(s) of the artist(s) involved
+artist_count,int64,Number of artists involved in the track
+released_year,int64,Year of release of the track
+released_month,int64,Month of release of the track
+released_day,int64,Day of release of the track
+in_spotify_playlists,int64,Number of Spotify playlists the track is included in
+in_spotify_charts,int64,Number of Spotify charts the track is included in
+streams,object,Total number of streams on Spotify
+in_apple_playlists,int64,Number of Apple Music playlists the track is included in
+in_apple_charts,int64,Total number of streams on Apple Music
+in_deezer_playlists,object,Total number of streams on YouTube
+in_deezer_charts,int64,Total number of streams on Amazon Music
+in_shazam_charts,object,Total number of streams on Deezer
+bpm,int64,Beats per minute (tempo) of the track
+key,object,Key in which the track is composed
+mode,object,Mode of the musical key (Major or Minor)
+danceability_%,int64,Danceability percentage of the track
+valence_%,int64,Valence percentage of the track (measure of musical positiveness)
+energy_%,int64,Energy percentage of the track
+acousticness_%,int64,Acousticness percentage of the track
+instrumentalness_%,int64,Instrumentalness percentage of the track
+liveness_%,int64,Liveness percentage of the track (presence of live audience)
+speechiness_%,int64,Speechiness percentage of the track (presence of spoken words)
