@@ -1,25 +1,25 @@
-﻿Column Name;Data Type;Description
-track_name;object; Name of the song
-artist(s)_name;object; Name of the artist(s) of the song
-artist_count;int64; Number of artists contributing to the song
-released_year;int64; Year when the song was released
-released_month;int64; Month when the song was released
-released_day;int64; Day of the month when the song was released
-in_spotify_playlists;int64; Number of Spotify playlists the song is included in
-in_spotify_charts;int64; Presence and rank of the song on Spotify charts
-streams;object; Total number of streams on Spotify
-in_apple_playlists;int64; Number of Apple Music playlists the song is included in
-in_apple_charts;int64; Presence and rank of the song on Apple Music charts
-in_deezer_playlists;object; Number of Deezer playlists the song is included in
-in_deezer_charts;int64; Presence and rank of the song on Deezer charts
-in_shazam_charts;object; Presence and rank of the song on Shazam charts
-bpm;int64; Beats per minute, a measure of song tempo
-key;object; Key of the song
-mode;object; Mode of the song (major or minor)
-danceability_%;int64; Percentage indicating how suitable the song is for dancing
-valence_%;int64; Positivity of the song's musical content
-energy_%;int64; Perceived energy level of the song
-acousticness_%;int64; Amount of acoustic sound in the song
-instrumentalness_%;int64; Amount of instrumental content in the song
-liveness_%;int64; Presence of live performance elements
-speechiness_%;int64; Amount of spoken words in the song
+﻿Column Name,Data Type,Description
+track_name,object, Name of the song
+artist(s)_name,object, Name of the artist(s) of the song
+artist_count,int64, Number of artists contributing to the song
+released_year,int64, Year when the song was released
+released_month,int64, Month when the song was released
+released_day,int64, Day of the month when the song was released
+in_spotify_playlists,int64, Number of Spotify playlists the song is included in
+in_spotify_charts,int64, Presence and rank of the song on Spotify charts
+streams,object, Total number of streams on Spotify
+in_apple_playlists,int64, Number of Apple Music playlists the song is included in
+in_apple_charts,int64, Presence and rank of the song on Apple Music charts
+in_deezer_playlists,object, Number of Deezer playlists the song is included in
+in_deezer_charts,int64, Presence and rank of the song on Deezer charts
+in_shazam_charts,object, Presence and rank of the song on Shazam charts
+bpm,int64, Beats per minute, a measure of song tempo
+key,object, Key of the song
+mode,object, Mode of the song (major or minor)
+danceability_%,int64, Percentage indicating how suitable the song is for dancing
+valence_%,int64, Positivity of the song's musical content
+energy_%,int64, Perceived energy level of the song
+acousticness_%,int64, Amount of acoustic sound in the song
+instrumentalness_%,int64, Amount of instrumental content in the song
+liveness_%,int64, Presence of live performance elements
+speechiness_%,int64, Amount of spoken words in the song
